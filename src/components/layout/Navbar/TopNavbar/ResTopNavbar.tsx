@@ -12,15 +12,15 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { integralCF } from "@/styles/fonts";
 import { NavMenu } from "../navbar.types";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import { Company } from "@/types/company.types";
+import { Button } from "@/components/ui/button";
 
-const ResTopNavbar = ({ data }: { data: NavMenu }) => {
+const ResTopNavbar = ({
+  items,
+  companyName,
+}: {
+  items: NavMenu;
+  companyName?: string;
+}) => {
   return (
     <Sheet>
       <SheetTrigger asChild className="cursor-pointer">
@@ -37,48 +37,26 @@ const ResTopNavbar = ({ data }: { data: NavMenu }) => {
         <SheetHeader className="mb-10">
           <SheetTitle asChild>
             <SheetClose asChild>
-              <Link href="/" className={cn([integralCF.className, "text-2xl"])}>
-                FASHION
+              <Link
+                href="/"
+                className={cn([integralCF.className, "text-2xl"])}
+              >
+                {companyName || "Nam Phong"}
               </Link>
             </SheetClose>
           </SheetTitle>
         </SheetHeader>
-        <div className="flex flex-col items-start">
-          {data.map((item) => (
-            <React.Fragment key={item.id}>
-              {item.type === "MenuItem" && (
-                <SheetClose asChild>
-                  <Link href={item.url ?? "/"} className="mb-4">
-                    {item.label}
-                  </Link>
-                </SheetClose>
-              )}
-              {item.type === "MenuList" && (
-                <div className="mb-4 w-full">
-                  <Accordion type="single" collapsible>
-                    <AccordionItem value={item.label} className="border-none">
-                      <AccordionTrigger className="text-left p-0 py-0.5 font-normal text-base">
-                        {item.label}
-                      </AccordionTrigger>
-                      <AccordionContent className="p-4 pb-0 border-l flex flex-col">
-                        {item.children.map((itemChild, idx) => (
-                          <SheetClose
-                            key={itemChild.id}
-                            asChild
-                            className="w-fit py-2 text-base"
-                          >
-                            <Link href={itemChild.url ?? "/"}>
-                              {itemChild.label}
-                            </Link>
-                          </SheetClose>
-                        ))}
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                </div>
-              )}
-            </React.Fragment>
+        <div className="flex flex-col items-start gap-4">
+          {items.map((item) => (
+            <SheetClose asChild key={item.id}>
+              <Link href={item.url}>{item.label}</Link>
+            </SheetClose>
           ))}
+          <SheetClose asChild>
+            <Link href="/lien-he" className="w-full">
+              <Button className="mt-2 w-full">Nhận báo giá</Button>
+            </Link>
+          </SheetClose>
         </div>
       </SheetContent>
     </Sheet>
