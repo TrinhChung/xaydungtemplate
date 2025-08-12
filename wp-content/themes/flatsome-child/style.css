@@ -1,0 +1,534 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+html, body {overflow-x: hidden;}
+.section-tin-moi .flickity-button,.section-khach-hang .flickity-button{
+	display: block;
+	opacity: 1;
+	color: #f48121 !important;
+	fill: #f48121 !important;
+}
+.slider-nav-light .flickity-prev-next-button svg, .slider-nav-light .flickity-prev-next-button .arrow{
+	fill: #f48121 !important;
+}
+.section-doi-tac .gallery-col{
+	padding-bottom: 0px !important;
+}
+.dx_widget_register .wpcf7-submit{
+	background: black !important;
+}
+.section-tin-moi .post-item{
+	padding-bottom: 0px ;
+}
+h5.post-title{
+	color: #f48121
+}
+.title-footer{
+	font-size: 18px;
+	color: #f48121
+}
+.section-khach-hang,.section-giai-thuong{
+	background: url(images/bg-giaithuong.png);
+
+}
+.section-khach-hang .icon-box{
+	max-width: 850px;
+	margin: 0 auto;
+	border: 1px solid #f48121;
+	border-radius: 150px;
+	padding: 20px 30px;
+	overflow: hidden;
+}
+.section-khach-hang .icon-box-img {
+	max-width: 240px;
+}
+.section-nhay-so .item-so{
+	text-align: center;
+}
+.section-nhay-so .item-so p{
+	margin-bottom: 0px;
+}
+.section-nhay-so .item-so .text-tren span.count-up{
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 40px;
+	display: inline-block;
+	line-height: 1;
+	z-index: 2;
+	position: relative;
+}
+.section-nhay-so .item-so .text-tren sup{
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1;
+	position: absolute;
+	top: 35px;
+	z-index: 1;
+}
+.section-nhay-so .item-so .text-duoi{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.3;
+	display: block;
+	margin-top: 8px;
+}
+.section-nhay-so .item-so p{
+	color: #f48121;
+}
+.section-nhay-so .item-so .wrap{
+	margin: auto;
+	border: 4px solid #f48121;
+	border-radius: 50%;
+	/* overflow: hidden; */
+	height: 180px;
+	width: 180px;
+}
+.section-nhay-so .item-so .wrap .
+#spu-bg-255 .wpcf7-response-output{
+	color: white;
+}
+
+.product-template-default #feedback{
+	display: block !important
+}
+.form-div .wpcf7-submit{
+	background: #F48120 !important;
+}
+.row-form-trong .form-div{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.wpcf7-form{
+	margin-bottom: 0px;
+}
+.div-form h3{
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 5px;
+}
+.div-form h3,.div-form p{
+	color: white;
+
+}
+.div-form p{
+	font-size: 14px;
+}
+#feedback {
+	position: fixed;
+	bottom: -2px;
+	height: auto;
+	z-index: 9999;
+	left: 50px;
+	width: 270px;
+}
+#feedback-header span {
+	color: #ffffff;
+	font-size: 16px;
+	display: block;
+	float: left;
+}
+#feedback-header {
+	text-align: center;
+	overflow: hidden;
+	padding: 7px 15px 7px 24px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	cursor: pointer;
+	background: #f48121;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #ccc;
+}
+.p-uu-dai{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+h1.entry-title{
+	color: #f48121;
+	font-size: 24px;
+}
+.entry-header-text-top{
+	padding-bottom: 0px;
+}
+.single-date{
+	display: none;
+}
+.row-divided>.col+.col:not(.large-12){
+	border-left: none;
+}
+.entry-content{
+	padding-top: 0px;
+}
+
+
+.div-no-padding{
+	padding-bottom: 0px;
+}
+.absolute-footer{
+	display: none;
+}
+
+.product-title a{
+	color: #23527c;
+	font-weight: bold;
+	height: 36px;
+	overflow: hidden;
+}
+.home .product-small,.product-small .product-small{
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+	box-shadow: 2px 0 5px #c4c4c4;
+	padding: 10px;
+}
+.dx-action7_content:hover a {
+	color: #fff;
+	background: #f48121
+}
+.dx-action7_content:hover a:before{
+	background: #f48121
+}
+.dx-action7_content li{
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.dx-action7_content a {
+	border: 1px solid #e8e8e8;
+	border-radius: 100%;
+	display: inline-block;
+	color: #999;
+	font-size: 40px;
+	height: 87px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 87px;
+	position: relative;
+	line-height: 87px;
+}
+.section-tai-sao ul{
+	list-style: none;
+}
+.post-sidebar{
+	padding:5px !important;
+}
+.dx-action7_content {
+
+	text-align: center;
+	width: 100%;
+
+}
+.dx-action7_content h5 {
+	font-weight: 700;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.tittle-home h3{
+	text-transform: uppercase;
+	color: #f48121;
+	font-size: 25px;
+	text-align: center;
+}
+.dx_widget_register{
+	background: #F48020;
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+	color: white;
+}
+.dx_widget_register .wpcf7-submit{
+	width: 100%;
+}
+.dx_widget_register .wpcf7-submit:hover{
+	background: #f48020;
+}
+.div-shop .flatsome_recent_posts ul,.blog-single .flatsome_recent_posts ul,.blog-archive .flatsome_recent_posts ul {
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+}
+.div-shop .widget-title,.post-sidebar .widget-title,#shop-sidebar .widget-title {
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 15px 0;
+	text-align: center;
+	background-color: #f48020;
+	display: block;
+}
+.dx_widget_register h5 {
+	margin-bottom: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center
+}
+.dx_widget_register .p-khach {
+	width: 70%;
+	float: left;
+	padding-right: 5px;
+}
+.dx_widget_register  i {
+	font-size: 48px;
+	padding: 15px 5px;
+	color: #f48121;
+}
+.section-thanh-menu li a:hover{
+	color: #f48020;
+}
+.section-thanh-menu li a{
+	text-transform: uppercase;
+	padding: 5px 10px !important;
+}
+.section-thanh-menu li{
+	border-right: 1px solid #ffffff;
+}
+h1.product-title {
+	font-size: 24px;
+	color: #f48121;
+}
+.product-short-description ul {
+	list-style: none;
+
+}
+.product-short-description ul li{
+	margin-left: 0px;
+}
+.product-short-description ul li span{
+	font-size: 14px;
+}
+span.gia-tien{
+	color: #f48020;
+	font-size: 20px;
+	font-weight: bold;
+}
+.is-divider{
+	display: none;
+}
+.product-type-simple .social-icons{
+	display: none;
+}
+.product_meta{
+	display: none;
+}
+.div-tong-quan,.div-vi-tri,.div-tien_ich{
+	margin-bottom: 40px;
+}
+h2.h2-mo-ta{
+	text-transform: uppercase;
+	color: #ffffff;
+	background: linear-gradient(to right, #f48121 , #fff);
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-size: 24px;
+}
+.div-mo-ta p{
+	margin-bottom: 10px;
+}
+.div-uu-dai{
+	background-color: #f48020;
+	padding: 40px 30px;
+	position: relative;
+	text-align: justify;
+	margin-bottom: 20px;
+	color: #ffffff !important;
+}
+.div-scroll{
+	padding: 10px !important;
+}
+.section-thanh-menu,.div-scroll{
+	z-index: 10;
+
+	background: #F1F1F1;
+}
+.lSSlideOuter li{
+	margin-left: 0px !important;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+@media(min-width: 1023px){
+
+}
+@media(max-width: 850px){
+	.tittle-home h3 {
+		font-size: 21px;}
+	.section-khach-hang .icon-box-img {
+		max-width: 200px;
+		display: block;
+		margin-bottom: 16px !important;
+	}
+	.section-khach-hang .icon-box .icon-box-img{
+		margin:auto;
+	}
+	.section-khach-hang .icon-box {
+		max-width: 850px;
+		margin: 0 auto;
+		border: none;
+		/* border: 1px solid #f48121; */
+		border-radius: 0px;
+		padding: 18px 14px;
+		overflow: hidden;
+		background: white;
+	}
+	.section-du-an,.section-ve-chung-toi{
+		padding-bottom: 0px !important
+	}
+	span.gia-tien {
+		color: #f48020;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.section-nhay-so .item-so .wrap {
+		margin: auto;
+		border: 4px solid #f48121;
+		border-radius: 50%;
+		/* overflow: hidden; */
+		height: 165px;
+		width: 165px;
+	}
+	.div-form h3, .div-form p {
+		font-size: 15px;
+		color: white;
+	}
+	.row-form-trong .wpcf7-submit{
+		width: 100%;
+	}
+	.hotline .smallest-mobile{
+		font-size: 12px;
+	}
+	.hotline {
+		position: fixed;
+		right: 2px;
+		background: #F48120;
+		bottom: 0px;
+		width: 111px;
+		z-index: 9999;
+		padding: 2px 0px 4px 15px;
+	}
+	#feedback-header {
+		text-align: center;
+		overflow: hidden;
+		padding: 5px 8px 7px 21px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		cursor: pointer;
+		background: #F48120;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom: 1px solid #ccc;
+	}
+	#feedback {
+		position: fixed;
+		bottom: -2px;
+		height: auto;
+		z-index: 9999;
+		left: 3px;
+		width: 186px;
+	}
+	#feedback-header span {
+		color: #ffffff;
+		font-size: 12px;
+		display: block;
+		float: left;
+	}
+	.section-anh{
+		padding-bottom: 0px !important;
+	}
+	h2.h2-mo-ta{
+		font-size: 16px;
+	}
+	.tittle-home h3{
+		font-size: 24px;
+	}
+}
+@media(min-width: 1023px){
+	.section-khach-hang .icon-box-text{
+		padding: 25px;
+	}
+	.section-nhay-so .large-3{
+		max-width: 20%;
+		flex-basis: 20%;
+	}
+
+}
+@media(max-width: 855px){
+	.category-filterin{
+		display: none;
+	}
+}
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
