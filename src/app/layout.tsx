@@ -11,6 +11,7 @@ import Providers from "./providers";
 import customFetch from "@/lib/axios/custom";
 import { Company } from "@/types/company.types";
 import { headers } from "next/headers";
+import { getNavItems } from "@/lib/posts";
 
 // Hàm fetch thông tin công ty (dùng lại)
 async function getCompanyInfo() {
@@ -54,6 +55,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const company = await getCompanyInfo();
+  const navItems = await getNavItems();
 
   return (
     <html lang="en">
@@ -61,7 +63,7 @@ export default async function RootLayout({
         <HolyLoader color="#868686" />
         <TopBanner company={company} />
         <Providers>
-          <TopNavbar company={company} />
+          <TopNavbar company={company} items={navItems} />
           {children}
         </Providers>
         <Footer company={company} />
