@@ -1,0 +1,62 @@
+[
+  {
+    "id": 13,
+    "title": "Trang chủ",
+    "slug": "trang-chu",
+    "order": 1
+  },
+  {
+    "id": 14,
+    "title": "Giới thiệu",
+    "slug": "gioi-thieu",
+    "order": 2
+  },
+  {
+    "id": 16,
+    "title": "Tiện ích",
+    "slug": "tien-ich",
+    "order": 3
+  },
+  {
+    "id": 15,
+    "title": "Vị trí",
+    "slug": "vi-tri",
+    "order": 4
+  },
+  {
+    "id": 17,
+    "title": "Mặt bằng",
+    "slug": "mat-bang",
+    "order": 5
+  },
+  {
+    "id": 18,
+    "title": "Căn hộ Ruby",
+    "slug": "phuong-thuc-thanh-toan",
+    "order": 6
+  },
+  {
+    "id": 880,
+    "title": "Căn hộ Sapphire",
+    "slug": "can-ho-sapphire",
+    "order": 7
+  },
+  {
+    "id": 881,
+    "title": "Chính sách bán hàng",
+    "slug": "chinh-sach-ban-hang",
+    "order": 8
+  },
+  {
+    "id": 19,
+    "title": "Tin tức",
+    "slug": "tin-tuc",
+    "order": 9
+  },
+  {
+    "id": 20,
+    "title": "Liên hệ",
+    "slug": "lien-he",
+    "order": 10
+  }
+]

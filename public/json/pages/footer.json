@@ -1,0 +1,88 @@
+{
+  "id": 920,
+  "slug": "footer",
+  "title": "footer",
+  "raw": "[scroll_to title=\"Liên hệ\" link=\"#lien_he\" bullet=\"false\"]\n\n[section label=\"Footer\" bg=\"545\" bg_size=\"original\" bg_overlay=\"rgba(0, 0, 0, 0.83)\" class=\"footer-block\"]\n\n[row]\n\n[col span=\"6\" span__sm=\"12\" color=\"light\"]\n\n<p><span class=\"widget-title\">LIÊN HỆ VỚI CHÚNG TÔI</span></p>\n<div class=\"textwidget\">\n<p>CÔNG TY TNHH QUẢN LÝ BẤT ĐỘNG SẢN HANOI HOME</p>\n<p>MST: 0110987290</p>\n<p>SĐT: 0986465663</p>\n<p>ĐỊA CHỈ: Căn sh09, tòa S1.06 Vinhomes Smart City, đường Vạn Xuân, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam</p>\n<p>WEBSITE: bdshanoihome.congtybn.com</p>\n<p>MAIL: info@bdshanoihome.congtybn.com</p>\n</div>\n<p><strong>FANPAGE FACEBOOK</strong></p>\n<p><iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61574529374415&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=1109405000562537\" width=\"340\" height=\"130\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>\n\n[/col]\n[col span=\"6\" span__sm=\"12\" align=\"left\" color=\"light\"]\n\n<h3 class=\"block-title\" style=\"text-align: center;\">Đăng ký nhận tư vấn và báo giá</h3>\n[gap height=\"20px\"]\n\n[contact-form-7 id=\"443\"]\n\n<p><strong>BẢN ĐỒ</strong></p>\n<p><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6702503227757!2d105.73371577518752!3d21.005851280637813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345377f2f8d3e7%3A0x35de42b563bfcd9f!2zVuG6oW4gWHXDom4sIFTDonkgTeG7lywgTmFtIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1743259906584!5m2!1sen!2s\" width=\"600\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></p>\n\n[/col]\n\n[/row]\n\n[/section]",
+  "blocks": [
+    {
+      "type": "anchor",
+      "title": "Liên hệ",
+      "href": "#lien_he",
+      "props": {
+        "title": "Liên hệ",
+        "link": "#lien_he",
+        "bullet": "false"
+      }
+    },
+    {
+      "type": "section",
+      "props": {
+        "label": "Footer",
+        "bg": "545",
+        "bg_size": "original",
+        "bg_overlay": "rgba(0, 0, 0, 0.83)",
+        "class": "footer-block"
+      },
+      "children": [
+        {
+          "type": "row",
+          "props": {},
+          "children": [
+            {
+              "type": "col",
+              "props": {
+                "span": "6",
+                "span__sm": "12",
+                "color": "light"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "html": "<p><span class=\"widget-title\">LIÊN HỆ VỚI CHÚNG TÔI</span></p>\n<div class=\"textwidget\">\n<p>CÔNG TY TNHH QUẢN LÝ BẤT ĐỘNG SẢN HANOI HOME</p>\n<p>MST: 0110987290</p>\n<p>SĐT: 0986465663</p>\n<p>ĐỊA CHỈ: Căn sh09, tòa S1.06 Vinhomes Smart City, đường Vạn Xuân, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam</p>\n<p>WEBSITE: bdshanoihome.congtybn.com</p>\n<p>MAIL: info@bdshanoihome.congtybn.com</p>\n</div>\n<p><strong>FANPAGE FACEBOOK</strong></p>\n<p><iframe src=\"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D61574529374415&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=1109405000562537\" width=\"340\" height=\"130\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"></iframe>"
+                }
+              ],
+              "span": 6
+            },
+            {
+              "type": "col",
+              "props": {
+                "span": "6",
+                "span__sm": "12",
+                "align": "left",
+                "color": "light"
+              },
+              "children": [
+                {
+                  "type": "text",
+                  "html": "<h3 class=\"block-title\" style=\"text-align: center;\">Đăng ký nhận tư vấn và báo giá</h3>"
+                },
+                {
+                  "type": "gap",
+                  "attrs": {
+                    "height": "20px"
+                  }
+                },
+                {
+                  "type": "wpcf7",
+                  "id": 443,
+                  "title": null
+                },
+                {
+                  "type": "text",
+                  "html": "<p><strong>BẢN ĐỒ</strong></p>\n<p><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6702503227757!2d105.73371577518752!3d21.005851280637813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345377f2f8d3e7%3A0x35de42b563bfcd9f!2zVuG6oW4gWHXDom4sIFTDonkgTeG7lywgTmFtIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1743259906584!5m2!1sen!2s\" width=\"600\" height=\"200\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></p>"
+                }
+              ],
+              "span": 6
+            }
+          ]
+        }
+      ],
+      "bg_id": 545,
+      "bg_src": "/images/2019/11/slider-03.jpg",
+      "overlay": "rgba(0, 0, 0, 0.83)"
+    }
+  ],
+  "stats": {
+    "block_count": 2
+  }
+}
