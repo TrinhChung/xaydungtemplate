@@ -196,14 +196,4 @@ export interface ContactPayload {
 
 ---
 
-## 9) Build & Triển khai
 
-* **CI/CD**: GitHub Actions
-  * Lint + typecheck.
-  * Build sản phẩm `dist/`.
-  * Upload artifact & deploy (Vercel/Netlify/Cloudflare Pages/Nginx).
-* **Nginx** (nếu tự host):
-  * `try_files $uri /index.html;` (SPA routing).
-  * nén gzip/brotli, cache static (ảnh, font, JS/CSS).
-
----
