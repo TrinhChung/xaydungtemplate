@@ -4,25 +4,22 @@ import { integralCF } from "@/styles/fonts";
 import Link from "next/link";
 import ResTopNavbar from "./ResTopNavbar";
 import { Button } from "@/components/ui/button";
-import { NavItem } from "../navbar.types";
 import { Company } from "@/types/company.types";
+import { NavMenu } from "../navbar.types";
 
-const NAV_ITEMS: NavItem[] = [
-  { id: 1, label: "Trang chủ", url: "/" },
-  { id: 2, label: "Giới thiệu", url: "/gioi-thieu" },
-  { id: 3, label: "Dịch vụ", url: "/dich-vu" },
-  { id: 4, label: "Dự án", url: "/du-an" },
-  { id: 5, label: "Tin tức", url: "/tin-tuc" },
-  { id: 6, label: "Liên hệ", url: "/lien-he" },
-];
-
-const TopNavbar = ({ company }: { company: Company | null }) => {
+const TopNavbar = ({
+  company,
+  items,
+}: {
+  company: Company | null;
+  items: NavMenu;
+}) => {
   return (
     <nav className="sticky top-0 bg-white z-20">
       <div className="flex relative max-w-frame mx-auto items-center justify-between py-5 md:py-6 px-4 xl:px-0">
         <div className="flex items-center">
           <div className="block md:hidden mr-4">
-            <ResTopNavbar items={NAV_ITEMS} companyName={company?.name} />
+            <ResTopNavbar items={items} companyName={company?.name} />
           </div>
           <Link
             href="/"
@@ -36,7 +33,7 @@ const TopNavbar = ({ company }: { company: Company | null }) => {
           </Link>
         </div>
         <div className="hidden md:flex items-center space-x-6">
-          {NAV_ITEMS.map((item) => (
+          {items.map((item) => (
             <Link key={item.id} href={item.url} className="text-sm font-medium">
               {item.label}
             </Link>
